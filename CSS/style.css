@@ -21,17 +21,24 @@
     width: 50%;
     margin-left: auto;
   }
+  li{
+    padding: 15px;
+  }
   
   /* Center images inside their containers */
   .logo img {
     display: block;
     margin: 0 auto;
+    height: 150px;
   }
   
   /* Hero Image CSS */
   .heroImg {
-    height: 600px;
+    max-height: 300px;
     padding: 25px;
+    width: 200px;
+    margin: 0 auto;
+    display: block;
   }
   
   .content {
@@ -43,6 +50,7 @@
   footer {
     background-color: #373738;
     padding: 20px;
+    margin-top: 20%;
   }
   
   footer ul {
@@ -54,5 +62,12 @@
   footer li {
     list-style: none;
     color: white;
-    padding: 5px;
+    padding: 15px;
   }
+  body{
+    background-color: #F5F4EB;
+    margin: 0;
+    font-family: Arial, sans-serif; 
+    color: #333;
+  }
+  
